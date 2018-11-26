@@ -5,8 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <meta name="description" content="Lawrence Theme">
-    <meta name="author" content="Carlos Alvarez - Alvarez.is - blacktie.co"> -->
+
     <link rel="shortcut icon" href="">
 
     <title>Teresa Grossman</title>
@@ -14,22 +13,17 @@
     <!-- Bootstrap 3.0.2 CSS -->
     <link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom CSS -->
-	<!-- <link href="https://rawgit.com/ItsOkayItsOfficial/project3/app/client/public/assets/templates/lawrence/assets/css/main.css" rel="stylesheet"> -->
-
-
-    <link rel="stylesheet" href="./assets/css/style.css">
-
     <link rel="stylesheet" href="./assets/css/style.css">
 
 
-    <!-- Font Awesome 4.0.3 -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <!-- jQuery 1.10.2 -->
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <!-- Chart.js 1.0.1 -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.1/Chart.min.js"></script>
+    <!-- Chart.js 1.0.1
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.1/Chart.min.js"></script> -->
 
 </head>
 
@@ -81,8 +75,11 @@
         <!-- /container -->
     </div>
     <!-- /hello -->
-
-    <div class="green" id='about'>
+<br>
+<br>
+    <div class="portfolioPic" id='about'>
+        <br>
+        <br>
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 centered">
@@ -106,17 +103,20 @@
             </div>
         </div>
     </div>
-
+<br>
+<br>
     <div class="container" id='portfolio'>
         <div class="row centered mt grid">
             <h3>MY LATEST WORK</h3>
+            <br>
+            <br>
             <div class="col-lg-4" style='text-align:center; word-wrap: break-word;'>
                 <a id="proj_1" href="https://teresagrossman.github.io/Project1-TMG/" target='_blank'>
                     <img style='width:300px; height:300px' src="." alt="">
                     <img src="./assets/screenshots/ClapperboardScreenshot.png" style="width: 300px; height: 300px;" alt="">
                 </a>
                 <h3 style='margin: 10px auto auto auto'>Movie Info in a Snap App</h3>
-                <p style='width: 300px; margin:auto'>An app to help movie goers decide on which movie they want to see with one click. Users can input a partial
+                <p style='width: 300px; margin:auto; font-weight: 300;'>An app to help movie goers decide on which movie they want to see with one click. Users can input a partial
                     movie name and click 'Searh Title' to populate a list or click 'Now Playing' to populate a list of movies
                     playing in their area. Once they click on the movie of their choice they can access movie reviews from
                     peer movie goers, ratings and view a trailer if available.
@@ -168,7 +168,7 @@
                 <a href="https://github.com/TeresaGrossman/nyt-reactapp"> Visit the GitHub repository </a>
             </p>
         </div>
-        <div class="col-lg-4" style='text-align:center; word-wrap: break-word;'>
+        <d iv class="col-lg-4" style='text-align:center; word-wrap: break-word;'>
             <img style='width:300px; height:300px' src="./assets/screenshots/node.jsMySQLScreenshot.gif" alt="">
             </a>
             <h3 style='margin: 10px auto auto auto'>MySQL Node.js "bAmazon" Customer App</h3>
@@ -182,82 +182,56 @@
 
 
     <div id="skills">
-        <div class="container">
+            <!-- skills-list -->
+        <div class="skills-list">
             <div class="row centered">
                 <h3>MY SKILLS</h3>
-                <div class="col-lg-3 mt">
-                    <canvas id="Javascript" height="130" width="130"></canvas>
-                    <p>Javascript</p>
-                    <br>
-                    <script>
-                        var doughnutData = [{
-                            value: 80,
-                            color: "#85C1E9"
-                        },
-                        {
-                            value: 20,
-                            color: "#3c3c3c"
-                        }
-                        ];
-                        var myDoughnut = new Chart(document.getElementById("Javascript").getContext("2d")).Doughnut(doughnutData);
-                    </script>
-                </div>
-                <div class="col-lg-3 mt">
-                    <canvas id="Node.js" height="130" width="130"></canvas>
-                    <p>Node.js</p>
-                    <br>
-                    <script>
-                        var doughnutData = [{
-                            value: 80,
-                            color: "#85C1E9"
-                        },
-                        {
-                            value: 20,
-                            color: "#3c3c3c"
-                        }
-                        ];
-                        var myDoughnut = new Chart(document.getElementById("Node.js").getContext("2d")).Doughnut(doughnutData);
-                    </script>
-                </div>
-                <div class="col-lg-3 mt">
-                    <canvas id="JSON" height="130" width="130"></canvas>
-                    <p>JSON</p>
-                    <br>
-                    <script>
-                        var doughnutData = [{
-                            value: 80,
-                            color: "#85C1E9"
-                        },
-                        {
-                            value: 20,
-                            color: "#3c3c3c"
-                        }
-                        ];
-                        var myDoughnut = new Chart(document.getElementById("JSON").getContext("2d")).Doughnut(doughnutData);
-                    </script>
-                </div>
-                <div class="col-lg-3 mt">
-                    <canvas id="API" height="130" width="130"></canvas>
-                    <p>API</p>
-                    <br>
-                    <script>
-                        var doughnutData = [{
-                            value: 80,
-                            color: "#85C1E9"
-                        },
-                        {
-                            value: 20,
-                            color: "#3c3c3c"
-                        }
-                        ];
-                        var myDoughnut = new Chart(document.getElementById("API").getContext("2d")).Doughnut(doughnutData);
-                    </script>
-                </div>
-            </div>
-            <!-- /row -->
+                <ul>
+                <li class="text-center">
+                            <a href="#" data-toggle="collapse" data-target="#zero">
+                    <i class="fab fa-node fa-lg" ></i><br>Node.js</a>
+                  </li>
+                  <li class="text-center">
+                    <a href="#" data-toggle="collapse" data-target="#one">
+                        <i class="fab fa-js" ></i><br>Javascript</a>
+                  </li>
+                  <li class="text-center">
+                    <a href="#" data-toggle="collapse" data-target="#two"><i class="fa fa-2x fa-database"></i><br>MySQL</a>
+                  </li>
+                  <li class="text-center">
+                    <a href="#" data-toggle="collapse" data-target="#three"><i class="fab fa-react"></i><br>React</a>
+                  </li>
+                <!-- </span> -->
+            </ul> 
+            <!-- ---------------------------------------------            -->
+            <!-- <ul>
+                    <span style="font-size: 1em; color: Tomato;"><li class="text-center">
+                            <div class="col-lg-6" style='text-align:center;'>
+                        <i class="fab fa-node fa-lg" ></i><br>Node.js</a>
+                            </div>
+                      </li>
+                      <li class="text-center">
+                            <div class="col-lg-6" style='text-align:center;'>
+                        <a href="#" data-toggle="collapse" data-target="#one"><i class="fab fa-js" ></i><br>Javascript</a>
+                        </div>
+                      </li>
+                      <li class="text-center">
+                            <div class="col-lg-6" style='text-align:center;'>
+                        <a href="#" data-toggle="collapse" data-target="#two"><i class="fa fa-2x fa-database"></i><br>MySQL</a>
+                        </div>
+                      </li>
+                      <li class="text-center">
+                            <div class="col-lg-6" style='text-align:center;'>
+                        <a href="#" data-toggle="collapse" data-target="#three"><i class="fab fa-react"></i><br>React</a>
+                        
+                      </li>
+                    </span>
+                </ul>             -->
+                </div> -->
+           </div>
         </div>
-        <!-- /container -->
-    </div>
+        <!-- /skills-list-->
+    <!-- </div> -->
     <!-- /skills -->
 
     <section id="contact"></section>
@@ -265,14 +239,14 @@
         <div class="container">
             <div class="row centered">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <div class="col-md-4">
-                        <!-- <a target="_blank" href="https://www.linkedin.com/in/teresagrossman369"> -->
-                            <i class="fa fa-linkedin"></i>
+                    <div class="col-lg-4">
+                        <a target="_blank" href="https://www.linkedin.com/in/teresagrossman369">
+                            <i class="fab fa-linkedin"></i>
                         </a>
                     </div>
                     <div class="col-md-4">
                         <a target="_blank" href="https://github.com/teresagrossman">
-                            <i class="fa fa-github"></i>
+                            <i class="fab fa-github"></i>
                         </a>
                     </div>
                     <div class="col-md-4">

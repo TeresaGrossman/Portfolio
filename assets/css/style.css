@@ -1,6 +1,6 @@
 /* FONTS */
-@import url(https://fonts.googleapis.com/css?family=Lato:300, 400, 700, 900);
-@import url(https://fonts.googleapis.com/css?family=Raleway:400, 300, 700, 900);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700,900);
 
 /* OVERALL ASPECT */
 
@@ -33,6 +33,7 @@ h6 {
 /* Paragraph & Typographic */
 p {
   line-height: 28px;
+  font-weight: 200;
   margin-bottom: 25px;
 }
 
@@ -147,26 +148,85 @@ hr {
   font-weight: 400;
 }
 
-/* Green */
-.green {
+/* portfolioPic */
+.portfolioPic {
   background-color: #2e86c1;
   padding-top: 50px;
   margin-bottom: 0px;
 }
 
-.green h3 {
+.portfolioPic h3 {
   color: white;
   font-weight: 400;
   margin-bottom: 35px;
 }
 
-.green p {
+.portfolioPic p {
   color: white;
   font-weight: 400;
   font-size: 20px;
 }
 
 /* Skills */
+.skills-list {
+  /* display:  flex; */
+  /* flex-wrap: wrap; */
+    margin: 0;
+    padding: 0;
+}
+
+.skills-list ul {
+  /* display: inline-flex; */
+  /* flex-wrap: wrap; */
+    margin: 0;
+    padding: 5px;
+}
+
+.skills-list li {
+    text-align: center;
+    flex-wrap: wrap;
+    font-weight: bold;
+    width: 25.0%;
+    margin-bottom: 3px!important;
+    background-image: url("../images/funky-lines.png");
+    border: 1px solid #eee;
+    display: inline-block;
+    font-size: 10px;
+    padding:0;
+}
+
+.skills-list i {
+  display: flex;
+  margin: 0 auto 10px auto;
+	width: 32px;
+    height: 32px;
+    margin: 10px auto 0;
+    line-height: 32px;
+    text-align: center;
+    font-size: 40px;
+    color: #444444;
+  margin-top:0;
+  padding-top:5px;
+}
+.skills-list a{
+  text-decoration:none;
+  width:100%;
+  height:100%;
+  display:block;
+  margin:0;
+  padding:0;
+}
+
+.skills-list a span{
+  color:black;
+  font-size:10px;
+  padding:5px 0 10px 0;
+  display:block;
+  text-transform:uppercase;
+  font-family:'Josefin Sans';
+  letter-spacing:1px;
+}
+
 #skills {
   background-color: #c12e3d;
   padding-top: 50px;
