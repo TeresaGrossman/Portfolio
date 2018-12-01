@@ -2,6 +2,9 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,900);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700,900);
 
+/* Imports for skills*/
+@import url('//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css');
+
 /* OVERALL ASPECT */
 
 body {
@@ -168,11 +171,31 @@ hr {
 }
 
 /* Skills */
+
+/* Variables */
+@colorBase: rgba(68, 138, 175, 1);
+
+/* Mixins */
+/* .transition (@prop: all, @time: 1s, @ease: linear) {
+	-webkit-transition: @prop @time @ease;
+	-moz-transition: @prop @time @ease;
+	-o-transition: @prop @time @ease;
+	-ms-transition: @prop @time @ease;
+  transition: @prop @time @ease;
+} */
+.universal-inline-block {
+	display: inline-block;
+	zoom: 1;
+	*display: inline;
+}
 .skills-list {
   /* display:  flex; */
   /* flex-wrap: wrap; */
-    margin: 0;
-    padding: 0;
+  text-align: center;
+  font-family: "Open Sans";
+  font-weight: 300;
+  font-size: 1.5em;
+   
 }
 
 .skills-list ul {
