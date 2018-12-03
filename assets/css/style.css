@@ -170,6 +170,14 @@ hr {
   font-size: 20px;
 }
 
+/* Coding Tools */
+.icon-social{
+	width: 66px;
+	height: 66px;
+	border: 1px solid #000000;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
 /* Skills */
 
 /* Variables */
