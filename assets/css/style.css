@@ -172,12 +172,29 @@ hr {
 
 /* Coding Tools */
 .icon-social{
-	width: 66px;
-	height: 66px;
+	width: 95px;
+	height: 95px;
 	border: 1px solid #000000;
 	margin-top: 15px;
-	margin-bottom: 10px;
+  margin-bottom: 10px;
 }
+
+.float-left{
+	float: left;
+}
+
+.margin-right-social{
+	margin-right: 15px;
+}
+
+.container-cover{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+}
+
 /* Skills */
 
 /* Variables */
