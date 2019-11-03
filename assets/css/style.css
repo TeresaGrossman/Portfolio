@@ -13,7 +13,7 @@ body {
   font-family: "Lato";
   font-weight: 300;
   font-size: 16px;
-  color: #2e86c1;
+  color: #2873a6;
 
   -webkit-font-smoothing: antialiased;
   -webkit-overflow-scrolling: touch;
@@ -30,7 +30,7 @@ h5,
 h6 {
   font-family: "Raleway";
   font-weight: 300;
-  color: #c12e3d;
+  color: #7d2b2a;
 }
 
 /* Paragraph & Typographic */
@@ -50,7 +50,7 @@ p {
 
 /* Links */
 a {
-  color: #c12e3d;
+  color: #7d2b2a;
   word-wrap: break-word;
 
   -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -62,7 +62,7 @@ a {
 
 a:hover,
 a:focus {
-  color: #c12e3d;
+  color: #7d2b2a;
   text-decoration: none;
   outline: 0;
 }
@@ -92,7 +92,7 @@ hr {
   padding-top: 15px;
   padding-bottom: 15px;
   background-color: #85c1e9;
-  border-bottom: 5px solid #c12e3d;
+  border-bottom: 5px solid #7d2b2a;
 }
 
 .navbar-default .navbar-nav > .active > a,
@@ -103,7 +103,7 @@ hr {
 }
 
 #nav {
-  color: #c12e3d;
+  color: #7d2b2a;
 }
 
 .navbar-brand {
@@ -113,7 +113,7 @@ hr {
 }
 
 .btn-theme {
-  color: #2e86c1;
+  color: #2873a6;
   background-color: #85c1e9;
   border-color: transparent;
 }
@@ -143,17 +143,18 @@ hr {
   font-size: 90px;
   font-weight: 700;
   letter-spacing: 3px;
-  color: #2e86c1;
+  color: #2873a6;
 }
 
 #hello h2 {
-  color: #c12e3d;
-  font-weight: 400;
+  color: #7d2b2a;
+  font-weight: 500;
+
 }
 
 /* portfolioPic */
 .portfolioPic {
-  background-color: #2e86c1;
+  background-color: #2873a6;
   padding-top: 50px;
   margin-bottom: 0px;
 }
@@ -276,7 +277,7 @@ hr {
 }
 
 #skills {
-  background-color: #c12e3d;
+  background-color: #7d2b2a;
   padding-top: 50px;
   padding-bottom: 50px;
   margin-top: 50px;
@@ -300,7 +301,7 @@ hr {
 
 #social i {
   font-size: 50px;
-  color: #2e86c1;
+  color: #2873a6;
 }
 
 #social .col-md-3:hover {
